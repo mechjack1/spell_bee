@@ -21,6 +21,9 @@ def loadWords():
 
 
 def playGame(wordList, center_letter, remaining_letters):
+    """
+    Plays a game of Spell Bee, see NY Times mini game
+    """
     little_list = []
     inWord = True
     # pdb.set_trace()
