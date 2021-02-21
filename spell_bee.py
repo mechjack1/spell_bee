@@ -47,6 +47,7 @@ def playGame(wordList, center_letter, remaining_letters):
 
 
 if __name__ == '__main__':
+    # this is a comment in __main__
     wordList = loadWords()
     # load letters in lowercase
     center_letter = "m"
